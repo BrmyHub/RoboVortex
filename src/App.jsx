@@ -45,6 +45,7 @@ function App() {
     { label: "Team", id: "team" },
     { label: "Robot", id: "robot" },
     { label: "Engineering", id: "engineering" },
+    { label: "Testing", id: "testing" },
     { label: "Journey", id: "journey" },
     { label: "Gallery", id: "gallery" },
     { label: "Impact", id: "impact" },
