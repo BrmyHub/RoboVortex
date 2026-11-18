@@ -45,9 +45,8 @@ function App() {
     { label: "Team", id: "team" },
     { label: "Robot", id: "robot" },
     { label: "Engineering", id: "engineering" },
-    { label: "Testing", id: "testing" },
     { label: "Journey", id: "journey" },
-    { label: "Gallery", id: "gallery" },
+    { label: "Test", id: "testing" },
     { label: "Impact", id: "impact" },
     { label: "Sponsors", id: "sponsors" },
     { label: "Competition", id: "competition" },
@@ -285,14 +284,24 @@ function App() {
             </p>
           </div>
 
-          <div className="testing-video">
-            <iframe
-              src="https://www.youtube.com/embed/G84vUcnwlbs"
-              title="RoboVortex robot testing"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+          <div className="testing-media">
+            <div className="testing-video">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/G84vUcnwlbs?playsinline=1"
+                title="RoboVortex robot testing video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              className="testing-watch-link"
+              href="https://www.youtube.com/shorts/G84vUcnwlbs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WATCH ON YOUTUBE ↗
+            </a>
           </div>
         </section>
 
