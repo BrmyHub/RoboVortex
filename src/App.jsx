@@ -273,6 +273,28 @@ function App() {
           </div>
         </section>
 
+        {/* TESTING */}
+        <section className="testing-section" id="testing">
+          <div className="testing-copy">
+            <p className="eyebrow">REAL-WORLD PERFORMANCE</p>
+            <h2>TESTING<span>.</span></h2>
+            <p>
+              Every test helps us learn, improve and refine our robot.
+              Watch RoboVortex put its work into practice.
+            </p>
+          </div>
+
+          <div className="testing-video">
+            <iframe
+              src="https://www.youtube.com/embed/G84vUcnwlbs"
+              title="RoboVortex robot testing"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+
         {/* JOURNEY */}
         <section className="section journey-section" id="journey">
           <div className="section-heading">
@@ -300,27 +322,127 @@ function App() {
         </section>
 
         {/* GALLERY */}
-       {/* TESTING SECTION */}
-<section className="testing-section" id="testing">
-  <div className="testing-copy">
-    <p className="eyebrow">REAL-WORLD PERFORMANCE</p>
-    <h2>TESTING<span>.</span></h2>
-    <p>
-      Every test helps us improve. From initial trials to performance
-      checks, we continuously test and refine our robot to make it
-      competition-ready.
-    </p>
-  </div>
+        <section className="section gallery-section" id="gallery">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">INSIDE THE WORKSHOP</p>
+              <h2>THE <span>GALLERY.</span></h2>
+            </div>
+            <p>
+              Build sessions, prototypes, tests and competition moments.
+            </p>
+          </div>
 
-  <div className="testing-video">
-    <iframe
-      src="https://www.youtube.com/embed/G84vUcnwlbs"
-      title="RoboVortex Robot Testing"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-    ></iframe>
-  </div>
-</section>
+          <div className="gallery-grid">
+            {gallery.map((item, index) => (
+              <article className="gallery-card" key={item.title}>
+                <img src={item.image} alt={item.title} />
+                <div>
+                  <span>0{index + 1} / ROBO VORTEX</span>
+                  <strong>{item.title}</strong>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        {/* OUTREACH & IMPACT */}
+        <section className="section impact-section" id="impact">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">BEYOND THE COMPETITION FIELD</p>
+              <h2>OUTREACH & <span>IMPACT.</span></h2>
+            </div>
+            <p>
+              We want our work to reach beyond the competition field —
+              sharing practical learning, documenting our process and
+              encouraging curiosity about robotics and STEM.
+            </p>
+          </div>
+
+          <div className="engineering-grid">
+            <article className="engineering-card">
+              <span>01 / LEARN</span>
+              <div className="engineering-icon">◎</div>
+              <h3>STEM LEARNING</h3>
+              <p>
+                Making robotics easier to understand by explaining the ideas,
+                tools and problem-solving behind our build.
+              </p>
+            </article>
+
+            <article className="engineering-card">
+              <span>02 / SHARE</span>
+              <div className="engineering-icon">↗</div>
+              <h3>KNOWLEDGE SHARING</h3>
+              <p>
+                Sharing our design process, experiments and lessons so other
+                students can follow how ideas become working systems.
+              </p>
+            </article>
+
+            <article className="engineering-card">
+              <span>03 / INSPIRE</span>
+              <div className="engineering-icon">✳</div>
+              <h3>COMMUNITY</h3>
+              <p>
+                Encouraging curiosity, collaboration and hands-on problem
+                solving through our team journey.
+              </p>
+            </article>
+          </div>
+          <p className="eyebrow" style={{ marginTop: "24px" }}>
+            Project and event updates will be added as activities take place.
+          </p>
+        </section>
+
+        {/* SPONSORS */}
+        <section className="section sponsors-section" id="sponsors">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">THE PEOPLE WHO SUPPORT OUR BUILD</p>
+              <h2>SPONSORS & <span>SUPPORT.</span></h2>
+            </div>
+            <p>
+RoboVortex is grateful for the guidance, learning environment and
+              encouragement that help our team take on this challenge.
+            </p>
+          </div>
+
+          <div className="engineering-grid">
+            <article className="engineering-card">
+              <span>EDUCATION PARTNER</span>
+              <div className="engineering-icon">＋</div>
+              <h3>PNC COGNITIO SCHOOL</h3>
+              <p>
+                PNC Cognitio School is our education partner and the home
+                base for our NRL Hyperdrive 2026 team.
+              </p>
+            </article>
+
+            <article className="engineering-card">
+              <span>MENTORSHIP</span>
+              <div className="engineering-icon">◎</div>
+              <h3>TEAM MENTOR</h3>
+              <p>
+                We value the guidance and feedback that help us plan,
+                troubleshoot and improve throughout the project.
+              </p>
+            </article>
+
+            <article className="engineering-card">
+              <span>COMMUNITY SUPPORT</span>
+              <div className="engineering-icon">✳</div>
+              <h3>OUR SUPPORTERS</h3>
+              <p>
+                We are thankful to everyone who encourages our work.
+                Confirmed sponsor names and logos will be featured here
+                when partnerships are officially approved.
+              </p>
+            </article>
+          </div>
+        </section>
+
         {/* COMPETITION */}
         <section className="results-section" id="competition">
           <p className="eyebrow">NRL HYPERDRIVE 2026 · OFFICIAL TEAM #210</p>

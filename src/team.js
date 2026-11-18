@@ -9,7 +9,7 @@ export const team = [
     initials: "HS",
   },
   { id: 4, name: "PRATIK MUTHUKUMARAN", role: "Mechanical Engineer", initials: "PM" },
-  { id: 5, name: "NAGABOYA YESWANTH SIVA", role: "Electrical Engineer", initials: "NYS" },
+  { id: 5, name: "NAGANABOYINA YESWANTH SIVA", role: "Electrical Engineer", initials: "NYS" },
   { id: 6, name: "MURUNAL NAIR", role: "Electrical Engineer", initials: "MN" },
 ];
 
