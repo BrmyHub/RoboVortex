@@ -93,9 +93,9 @@ function App() {
             <p className="eyebrow">NRL HYPERDRIVE 2026 · TEAM PROFILE</p>
 
             <h1>
-              BUILT TO
+            WE DON'T FOLLOW
               <br />
-              <span>BREAK</span> LIMITS.
+              <span>THE FUTURE</span> WE CREATE IT.
             </h1>
 
             <p className="hero-description">
